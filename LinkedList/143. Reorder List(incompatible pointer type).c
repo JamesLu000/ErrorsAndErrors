@@ -5,7 +5,8 @@
  *     struct ListNode *next;
  * };
  */
-
+#include <stdio.h>
+#include <stddef.h>
 
 void reorderList(struct ListNode* head){
     struct ListNode** llarray[50000];
@@ -18,7 +19,7 @@ void reorderList(struct ListNode* head){
     }
     for (int i = 0; i < index; i++){
         printf("%p\n",llarray[i]);
-        llarray[i]->next = llarray[index-i];
+        // llarray[i]->next = llarray[index-i];
     }
     // head->next = NULL;
 
