@@ -8,3 +8,4 @@ vscode:
     - ms-vscode.cpptools-extension-pack
     - mhutchie.git-graph
     - ms-ceintl.vscode-language-pack-zh-hant
+    - xaver.clang-format
